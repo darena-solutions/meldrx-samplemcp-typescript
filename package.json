@@ -1,0 +1,30 @@
+{
+  "name": "meldrx-samplemcp-typescript",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "debug": "node --inspect --experimental-strip-types index.ts",
+    "dev": "node --experimental-strip-types index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darena-solutions/meldrx-samplemcp-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darena-solutions/meldrx-samplemcp-typescript/issues"
+  },
+  "homepage": "https://github.com/darena-solutions/meldrx-samplemcp-typescript#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.19",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^3.25.1"
+  }
+}
